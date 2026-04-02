@@ -1,0 +1,11 @@
+@transactions_HostAddress = http://localhost:5219
+
+GET {{transactions_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{transactions_HostAddress}}/todos/1
+Accept: application/json
+
+###
